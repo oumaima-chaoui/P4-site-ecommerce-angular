@@ -1,0 +1,102 @@
+
+	
+	<app-navbar></app-navbar>
+<div class="wrapper">
+       
+        <main>
+            <div id="shopify-section-product-template" class="shopify-section">
+                <div class="single-product-area mt-80 mb-80">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="product-details-large" id="ProductPhoto">
+									<img id="ProductPhotoImg" class="product-zoom img" data-image-id=""
+									 alt="12. Aliexpress dropshipping by oberlo" 
+									  src="assets/images/optimized.webp" width="60%" height="50%">
+          
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-7">
+                                <div class="single-product-content">
+                                    <form method="post" id="AddToCartForm" accept-charset="UTF-8" class="shopify-product-form" enctype="multipart/form-data">
+                                        <input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" />
+                                        <div class="product-details">
+                                            <h1 class="single-product-name">Lorem Ipsum is simply dummy text</h1>
+                                            <div class="single-product-reviews">
+                                                <span class="shopify-product-reviews-badge" data-id="1912078270534"></span>
+                                            </div>
+                                            <div class="rating">
+                                                <div class="stars">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                                <span class="review-no">345 reviews</span>
+                                            </div>
+                                            <div class="product-sku">SKU: <span class="variant-sku">YQT71020193</span></div>
+                                            
+                                            <div class="single-product-price">
+                                                <div class="product-discount"><span  class="price" id="ProductPrice"><span class=money>$20.66</span></span></div>
+                                            </div>
+                                            <div class="product-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                          
+                                            <div class="single-product-action">
+                                                <div class="product-variant-option"> 
+                                                    <select name="id" id="productSelect" class="product-single__variants" style="display:none;">   
+                                                        <option  selected="selected"  data-sku="YQT71020193" value="19506517377094">Default Title - <span class=money>$20.66 USD</span></option>
+                                    
+                                                    </select>
+                                                    <script>
+                                                        jQuery(function() {
+                                                          jQuery('.swatch :radio').change(function() {
+                                                            var optionIndex = jQuery(this).closest('.swatch').attr('data-option-index');
+                                                            var optionValue = jQuery(this).val();
+                                                            jQuery(this)
+                                                            .closest('form')
+                                                            .find('.single-option-selector')
+                                                            .eq(optionIndex)
+                                                            .val(optionValue)
+                                                            .trigger('change');
+                                                          });
+                                                        });
+                                                    </script>
+                                                </div>
+                                                <style>.product-variant-option .selector-wrapper{display: none;}</style>
+                                                <div class="product-add-to-cart">
+                                                    <span class="control-label">Quantity</span>
+                                                    <div class="cart-plus-minus">
+                                                        <input class="cart-plus-minus-box" type="text" name="quantity" value="1">
+                                                    </div>
+                                                    <div class="add">
+														<a routerLink="/shop" routerLinkActive="active">
+                                                        <button routerLink="/shop" routerLinkActive="active" type="submit" class="add-to-cart ajax-spin-cart" id="AddToCart">
+                                                            <i class="ion-bag"></i>
+                                                            <span class="list-cart-title cart-title" id="AddToCartText">Add to cart</span>
+                                                        </button>
+                                                        </a>
+
+                                                        <div class="single-product-wishlist">                    
+                                                            <a class="add-to-cart action-wishlist wishlist" href="#" title="Wishlist"><i class="fa fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="secure-payment"><img src="http://cdn.shopify.com/s/files/1/0067/5617/1846/files/guaranteed_safe_checkout1.png?v=1545216773"></div>                                                                  
+                                            </div>                                                        
+                                        </div>
+                                    </form> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <style type="text/css">.product-details .countdown-timer-wrapper{display: none !important;}</style>
+                                                
+               
+            </div>
+        </main>
+	</div>
+	<app-upsell></app-upsell>
+   <app-footer></app-footer>

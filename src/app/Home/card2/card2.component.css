@@ -1,0 +1,75 @@
+.pdg{
+    padding: 2rem 7rem;
+}
+
+.AAA{
+ width:17vw ;
+}
+.c-button{
+    top:-2px;
+    position: absolute;
+    z-index: 1000;
+    left: 42px;
+    background-color: transparent;
+    border-color: #fff;
+    position: relative;
+    color: #fff;
+   
+
+ }
+ 
+
+ .h{
+   
+  font-family: Montserrat-Medium;
+  font-size: 30px;
+  color: #111111;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin-left: auto;
+  
+ 
+    }
+  
+
+    .button {
+            font-family: Poppins-Bold;
+            background-color: rgba(235, 240, 236, 0.849);
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 10px 12px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+           
+             } 
+    .button:hover {
+            background-color: #a10f0f;
+            color: white;
+          }
+          
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+

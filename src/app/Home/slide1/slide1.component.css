@@ -1,0 +1,31 @@
+.h{
+   
+
+font-family: Poppins-Bold;
+font-size: 60px;
+color: white;
+line-height: 1.2;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.button {
+        background-color: rgba(235, 240, 236, 0.849); /* Green */
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        
+        font-size: 16px;
+        margin-bottom: 30%;
+        cursor: pointer;
+      
+        border-radius: 20px;
+      }
+     
+      
+      .button:hover {
+        background-color: #a10f0f;
+        color: white;
+      }
+      

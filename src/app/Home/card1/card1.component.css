@@ -1,0 +1,79 @@
+
+
+  .one{
+      height:30rem !important;
+  }
+  .two{
+      height:21rem !important;
+  }
+ .shop img{ 
+   
+     position: relative;
+    background-size:cover;
+    background-position: center;
+ }
+ .h{
+   
+  font-family: Montserrat-Medium;
+  font-size: 30px;
+  color: #111111;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin-left: auto;
+  
+ 
+    }
+  /* button-1 */
+ .c-button{
+    bottom: 64px;
+    position: absolute;
+    z-index: 1000;
+    left: 126px;
+    background-color: transparent;
+    border-color: #fff;
+    position: relative;
+    color: #fff;
+   
+
+ }
+
+ 
+   
+    .button {
+            font-family: Poppins-Bold;
+            background-color: rgba(235, 240, 236, 0.849);
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 10px 24px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+           
+             } 
+    .button:hover {
+            background-color: #a10f0f;
+            color: white;
+          }
+          /* button-2  */  
+       .b-button{
+        bottom: 24px;
+        position: absolute;
+        z-index: 1000;
+        left: 126px;
+        border-radius: 20px;
+        background-color: rgb(0, 0, 0);
+        border-color: rgb(0, 0, 0);
+        position: relative;
+        color: rgb(255, 255, 255);
+        
+    }
+    .b-button:hover {
+        background-color: #a10f0f;
+        color: white;
+      }
+    .bg-light{
+     width:100%;
+    }
+    .left{
+      padding: 0rem 3rem;
+    }

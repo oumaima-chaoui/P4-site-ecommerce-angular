@@ -1,0 +1,27 @@
+.pdg{
+    padding: 1rem 4rem;
+}
+.h{
+   
+    font-family: Montserrat-Medium;
+    font-size: 30px;
+    color: #111111;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin-left: auto;
+    
+   
+      }
+    
+.m-text11 {
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+}
+ .s-text8 a {
+    font-family: Montserrat-Regular;
+    font-size: 13px;
+    color: #888888;
+    line-height: 1.8;
+}

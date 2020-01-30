@@ -1,0 +1,39 @@
+{
+    "products": [
+      {
+        "image": "https://bestjquery.com/tutorial/product-grid/demo8/images/img-7.jpg",
+        "newOrNot": true,
+        "title": "In Search of Lost Time",
+        "price": 120,
+        "oldPrice": 170
+  
+      },
+      {
+        "image": "https://bestjquery.com/tutorial/product-grid/demo8/images/img-8.jpg",
+        "newOrNot": false,
+        "title": "Ulysses",
+        "price": 190,
+        "oldPrice": 120
+  
+      },
+  
+      {
+        "image": "http://bestjquery.com/tutorial/product-grid/demo8/images/img-1.jpg",
+        "newOrNot": true,
+        "title": "The Great Gatsby",
+        "price": 300,
+        "oldPrice": 120
+  
+      },
+      {
+        "image": "http://bestjquery.com/tutorial/product-grid/demo8/images/img-5.jpg",
+        "newOrNot": false,
+        "title": "Moby Dick",
+        "price": 130,
+        "oldPrice": 12
+  
+      }
+      
+  ]
+}
+  
