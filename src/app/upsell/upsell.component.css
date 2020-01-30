@@ -1,104 +1,75 @@
-@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
-.col-item
-{
-    border: 1px solid #E1E1E1;
-    border-radius: 5px;
-    background: #FFF;
-}
-.col-item .photo img
-{
-    margin: 0 auto;
-    width: 100%;
+.pdg{
+    padding: 2rem 9rem;
 }
 
-.col-item .info
-{
-    padding: 10px;
-    border-radius: 0 0 5px 5px;
-    margin-top: 1px;
+.VM{
+ width:17vw ;
+}
+.c-button{
+    top:-2px;
+    position: absolute;
+    z-index: 1000;
+    left: -4px;
+    background-color: transparent;
+    border-color: #fff;
+    position: relative;
+    color: #fff;
+   
+
+ }
+ 
+
+ /* .h{
+   
+  font-family: Montserrat-Medium;
+  font-size: 30px;
+  color: #111111;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin-left: auto;
+  
+ 
+    } */
+  
+
+    .button {
+            font-family: Poppins-Bold;
+            background-color: rgba(235, 240, 236, 0.849);
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 10px 12px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+           
+             } 
+    .button:hover {
+            background-color: #a10f0f;
+            color: white;
+          }
+          
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
-.col-item:hover .info {
-    background-color: #F5F5DC;
-}
-.col-item .price
-{
-    /*width: 50%;*/
-    float: left;
-    margin-top: 5px;
-}
-
-.col-item .price h5
-{
-    line-height: 20px;
-    margin: 0;
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
 
-.price-text-color
-{
-    color: #219FD1;
+.button:hover span {
+  padding-right: 25px;
 }
 
-.col-item .info .rating
-{
-    color: #777;
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
-.col-item .rating
-{
-    /*width: 50%;*/
-    float: left;
-    font-size: 17px;
-    text-align: right;
-    line-height: 52px;
-    margin-bottom: 10px;
-    height: 52px;
-}
-
-.col-item .separator
-{
-    border-top: 1px solid #E1E1E1;
-}
-
-.clear-left
-{
-    clear: left;
-}
-
-.col-item .separator p
-{
-    line-height: 20px;
-    margin-bottom: 0;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.col-item .separator p i
-{
-    margin-right: 5px;
-}
-.col-item .btn-add
-{
-    width: 50%;
-    float: left;
-}
-
-.col-item .btn-add
-{
-    border-right: 1px solid #E1E1E1;
-}
-
-.col-item .btn-details
-{
-    width: 50%;
-    float: left;
-    padding-left: 10px;
-}
-.controls
-{
-    margin-top: 20px;
-}
-[data-slide="prev"]
-{
-    margin-right: 10px;
-}

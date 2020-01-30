@@ -97,12 +97,7 @@ export class Card2Component implements OnInit {
       buttonText: 'Add to cart',
       img: './assets/images/720-960.jpg'
     },
-    {
-      title: 'Title 16',
-      description: '	Herschel supply co 25l',
-      buttonText: 'Add to cart',
-      img: './assets/images/720-960.jpg'
-    },
+    
     
   ];
   slides: any = [[]];
@@ -114,6 +109,6 @@ export class Card2Component implements OnInit {
     return R;
   }
   ngOnInit() {
-    this.slides = this.chunk(this.cards, 5);
+    this.slides = this.chunk(this.cards,5);
   }
 }
